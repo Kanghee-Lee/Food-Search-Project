@@ -1,0 +1,5 @@
+NLTK를 통해 natural language에서 word token을 추출한다.
+DataBase와 word token을 비교하면서 DB에 존재하지 않는 단어에 대해서
+nltk에서 유사어를 추가하는 식으로 query와 DB를 비교한다.
+query와 DB에 있는 Food document사이의 문서 유사도를 계산하기 위해
+ Language Model을 사용하였고 NDCG를 통해 정확도를 확인하며 개선하였다.
